@@ -7,8 +7,6 @@ namespace AspNetViewComponentExample.Pages.Shared.Components.YoutubeVideo
         public IViewComponentResult Invoke(
             string videoId, string cssClass = "")
         {
-            var arguments = this.ViewComponentContext;
-
             var model = new YoutubeVideoViewModel
             {
                 VideoId = videoId,
