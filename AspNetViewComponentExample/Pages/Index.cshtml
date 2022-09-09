@@ -1,0 +1,16 @@
+﻿@page
+@addTagHelper *, AspNetViewComponentExample
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    string itemClass = "col-lg-4 col-md-6 col-sm-12 p-2";
+}
+
+<div class="row">
+    <vc:youtube-video video-id="dQw4w9WgXcQ" css-class="@itemClass" />
+    <vc:youtube-video video-id="u02tycroA30" css-class="@itemClass" />
+    <vc:youtube-video video-id="K0HSD_i2DvA" css-class="@itemClass" />
+    <vc:youtube-video video-id="OJQIEYgPhqM" css-class="@itemClass" />
+    <vc:youtube-video video-id="KdljGM2IYAM" css-class="@itemClass" />
+    <vc:youtube-video video-id="berExPIcDhA" css-class="@itemClass" />
+</div>
